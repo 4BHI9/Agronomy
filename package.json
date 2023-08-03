@@ -1,0 +1,35 @@
+{
+  "homepage": "http://aditya-078.github.io/Mysmalltownshop ",
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.5",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.46.0",
+    "canvas-confetti": "^1.6.0",
+    "firebase": "^8.10.1",
+    "next": "^13.0.7",
+    "next-sanity-image": "^5.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "stripe": "^11.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "gh-pages": "^4.0.0"
+  }
+}
