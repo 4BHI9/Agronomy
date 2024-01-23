@@ -1,0 +1,37 @@
+{
+  "root": true,
+  "project": {
+    "name": "ecommerce"
+  },
+  "api": {
+    "projectId": "lczh8lv3",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "simple-star-rating"
+  ],
+
+  
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  
+    "paths": {
+      "source": "./src",
+      "compiled": "./lib"
+    },  
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
