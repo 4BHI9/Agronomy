@@ -1,8 +1,5 @@
 {
-  "homepage": "http://aditya-078.github.io/Mysmalltownshop ",
-  "name": "ecommerce",
-  "version": "0.1.0",
-  "private": true,
+  
   "scripts": {
     "dev": "next dev",
     "predeploy": "npm run build",
